@@ -11,5 +11,12 @@ AXML Visual RAD designer in Winform
   - MvvM 
 
 Better than WiseJ 
-  - Winform UI for the Web 
+  - WPF Databound controls, better than frontend loaded Winform UI for the Web
+
+---
+## WASM
+
+https://docs.avaloniaui.net/docs/tutorials/running-in-the-browser
+   dotnet workload install wasm-experimental wasm-tools
+   dotnet new avalonia.xplat
 
