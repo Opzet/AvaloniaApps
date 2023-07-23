@@ -17,6 +17,9 @@ Better than WiseJ
 ## WASM
 
 https://docs.avaloniaui.net/docs/tutorials/running-in-the-browser
-   dotnet workload install wasm-experimental wasm-tools
-   dotnet new avalonia.xplat
+```
+  dotnet workload install wasm-experimental wasm-tools
+
+  dotnet new avalonia.xplat
+```
 
