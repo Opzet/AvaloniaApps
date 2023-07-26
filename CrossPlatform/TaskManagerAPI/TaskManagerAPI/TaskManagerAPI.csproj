@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.8" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.9" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.9">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.9" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.9" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.9">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.8" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.4" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="obj\Debug\net7.0\apphost" />
+      <Content Include="obj\Debug\net7.0\staticwebassets.build.json" />
+      <Content Include="obj\Debug\net7.0\TaskManagerAPI.assets.cache" />
+      <Content Include="obj\Debug\net7.0\TaskManagerAPI.csproj.CopyComplete" />
+      <Content Include="obj\Debug\net7.0\TaskManagerAPI.csproj.CoreCompileInputs.cache" />
+      <Content Include="obj\Debug\net7.0\TaskManagerAPI.csproj.FileListAbsolute.txt" />
+      <Content Include="obj\Debug\net7.0\TaskManagerAPI.dll" />
+      <Content Include="obj\Debug\net7.0\TaskManagerAPI.genruntimeconfig.cache" />
+      <Content Include="obj\Debug\net7.0\TaskManagerAPI.MvcApplicationPartsAssemblyInfo.cache" />
+      <Content Include="obj\Debug\net7.0\TaskManagerAPI.pdb" />
+      <Content Include="obj\dotnet-aspnet-codegenerator" />
+      <Content Include="obj\project.assets.json" />
+      <Content Include="obj\project.nuget.cache" />
+      <Content Include="obj\rider.project.restore.info" />
+      <Content Include="obj\TaskManagerAPI.csproj.codegeneration.targets" />
+      <Content Include="obj\TaskManagerAPI.csproj.EntityFrameworkCore.targets" />
+      <Content Include="obj\TaskManagerAPI.csproj.nuget.dgspec.json" />
+      <Content Include="obj\TaskManagerAPI.csproj.nuget.g.props" />
+      <Content Include="obj\TaskManagerAPI.csproj.nuget.g.targets" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="obj\Debug\net7.0\TaskManagerAPI.MvcApplicationPartsAssemblyInfo.cs" />
+    </ItemGroup>
+
+</Project>
